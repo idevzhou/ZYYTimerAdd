@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95BDDA6C1D05CFF500B84193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDDA6B1D05CFF500B84193 /* main.m */; };
+		95BDDA6F1D05CFF500B84193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDDA6E1D05CFF500B84193 /* AppDelegate.m */; };
+		95BDDA721D05CFF500B84193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDDA711D05CFF500B84193 /* ViewController.m */; };
+		95BDDA751D05CFF500B84193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BDDA731D05CFF500B84193 /* Main.storyboard */; };
+		95BDDA771D05CFF500B84193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BDDA761D05CFF500B84193 /* Assets.xcassets */; };
+		95BDDA7A1D05CFF500B84193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BDDA781D05CFF500B84193 /* LaunchScreen.storyboard */; };
+		95BDDA851D05CFF500B84193 /* ZYYTimerAddTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDDA841D05CFF500B84193 /* ZYYTimerAddTests.m */; };
+		95BDDA901D05CFF500B84193 /* ZYYTimerAddUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDDA8F1D05CFF500B84193 /* ZYYTimerAddUITests.m */; };
+		95BDDAA01D05D02200B84193 /* NSTimer+ZYYTimerAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDDA9F1D05D02200B84193 /* NSTimer+ZYYTimerAdd.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95BDDA811D05CFF500B84193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95BDDA5F1D05CFF500B84193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BDDA661D05CFF500B84193;
+			remoteInfo = ZYYTimerAdd;
+		};
+		95BDDA8C1D05CFF500B84193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95BDDA5F1D05CFF500B84193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BDDA661D05CFF500B84193;
+			remoteInfo = ZYYTimerAdd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95BDDA671D05CFF500B84193 /* ZYYTimerAdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYYTimerAdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BDDA6B1D05CFF500B84193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95BDDA6D1D05CFF500B84193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95BDDA6E1D05CFF500B84193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95BDDA701D05CFF500B84193 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95BDDA711D05CFF500B84193 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95BDDA741D05CFF500B84193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95BDDA761D05CFF500B84193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95BDDA791D05CFF500B84193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95BDDA7B1D05CFF500B84193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BDDA801D05CFF500B84193 /* ZYYTimerAddTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYYTimerAddTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BDDA841D05CFF500B84193 /* ZYYTimerAddTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYYTimerAddTests.m; sourceTree = "<group>"; };
+		95BDDA861D05CFF500B84193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BDDA8B1D05CFF500B84193 /* ZYYTimerAddUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYYTimerAddUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BDDA8F1D05CFF500B84193 /* ZYYTimerAddUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYYTimerAddUITests.m; sourceTree = "<group>"; };
+		95BDDA911D05CFF500B84193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BDDA9E1D05D02200B84193 /* NSTimer+ZYYTimerAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+ZYYTimerAdd.h"; sourceTree = "<group>"; };
+		95BDDA9F1D05D02200B84193 /* NSTimer+ZYYTimerAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+ZYYTimerAdd.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95BDDA641D05CFF500B84193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BDDA7D1D05CFF500B84193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BDDA881D05CFF500B84193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95BDDA5E1D05CFF500B84193 = {
+			isa = PBXGroup;
+			children = (
+				95BDDA691D05CFF500B84193 /* ZYYTimerAdd */,
+				95BDDA831D05CFF500B84193 /* ZYYTimerAddTests */,
+				95BDDA8E1D05CFF500B84193 /* ZYYTimerAddUITests */,
+				95BDDA681D05CFF500B84193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95BDDA681D05CFF500B84193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95BDDA671D05CFF500B84193 /* ZYYTimerAdd.app */,
+				95BDDA801D05CFF500B84193 /* ZYYTimerAddTests.xctest */,
+				95BDDA8B1D05CFF500B84193 /* ZYYTimerAddUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95BDDA691D05CFF500B84193 /* ZYYTimerAdd */ = {
+			isa = PBXGroup;
+			children = (
+				95BDDA9D1D05D01800B84193 /* ZYYTimerAdd */,
+				95BDDA6D1D05CFF500B84193 /* AppDelegate.h */,
+				95BDDA6E1D05CFF500B84193 /* AppDelegate.m */,
+				95BDDA701D05CFF500B84193 /* ViewController.h */,
+				95BDDA711D05CFF500B84193 /* ViewController.m */,
+				95BDDA731D05CFF500B84193 /* Main.storyboard */,
+				95BDDA761D05CFF500B84193 /* Assets.xcassets */,
+				95BDDA781D05CFF500B84193 /* LaunchScreen.storyboard */,
+				95BDDA7B1D05CFF500B84193 /* Info.plist */,
+				95BDDA6A1D05CFF500B84193 /* Supporting Files */,
+			);
+			path = ZYYTimerAdd;
+			sourceTree = "<group>";
+		};
+		95BDDA6A1D05CFF500B84193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95BDDA6B1D05CFF500B84193 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95BDDA831D05CFF500B84193 /* ZYYTimerAddTests */ = {
+			isa = PBXGroup;
+			children = (
+				95BDDA841D05CFF500B84193 /* ZYYTimerAddTests.m */,
+				95BDDA861D05CFF500B84193 /* Info.plist */,
+			);
+			path = ZYYTimerAddTests;
+			sourceTree = "<group>";
+		};
+		95BDDA8E1D05CFF500B84193 /* ZYYTimerAddUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95BDDA8F1D05CFF500B84193 /* ZYYTimerAddUITests.m */,
+				95BDDA911D05CFF500B84193 /* Info.plist */,
+			);
+			path = ZYYTimerAddUITests;
+			sourceTree = "<group>";
+		};
+		95BDDA9D1D05D01800B84193 /* ZYYTimerAdd */ = {
+			isa = PBXGroup;
+			children = (
+				95BDDA9E1D05D02200B84193 /* NSTimer+ZYYTimerAdd.h */,
+				95BDDA9F1D05D02200B84193 /* NSTimer+ZYYTimerAdd.m */,
+			);
+			path = ZYYTimerAdd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95BDDA661D05CFF500B84193 /* ZYYTimerAdd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BDDA941D05CFF500B84193 /* Build configuration list for PBXNativeTarget "ZYYTimerAdd" */;
+			buildPhases = (
+				95BDDA631D05CFF500B84193 /* Sources */,
+				95BDDA641D05CFF500B84193 /* Frameworks */,
+				95BDDA651D05CFF500B84193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYYTimerAdd;
+			productName = ZYYTimerAdd;
+			productReference = 95BDDA671D05CFF500B84193 /* ZYYTimerAdd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95BDDA7F1D05CFF500B84193 /* ZYYTimerAddTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BDDA971D05CFF500B84193 /* Build configuration list for PBXNativeTarget "ZYYTimerAddTests" */;
+			buildPhases = (
+				95BDDA7C1D05CFF500B84193 /* Sources */,
+				95BDDA7D1D05CFF500B84193 /* Frameworks */,
+				95BDDA7E1D05CFF500B84193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BDDA821D05CFF500B84193 /* PBXTargetDependency */,
+			);
+			name = ZYYTimerAddTests;
+			productName = ZYYTimerAddTests;
+			productReference = 95BDDA801D05CFF500B84193 /* ZYYTimerAddTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95BDDA8A1D05CFF500B84193 /* ZYYTimerAddUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BDDA9A1D05CFF500B84193 /* Build configuration list for PBXNativeTarget "ZYYTimerAddUITests" */;
+			buildPhases = (
+				95BDDA871D05CFF500B84193 /* Sources */,
+				95BDDA881D05CFF500B84193 /* Frameworks */,
+				95BDDA891D05CFF500B84193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BDDA8D1D05CFF500B84193 /* PBXTargetDependency */,
+			);
+			name = ZYYTimerAddUITests;
+			productName = ZYYTimerAddUITests;
+			productReference = 95BDDA8B1D05CFF500B84193 /* ZYYTimerAddUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95BDDA5F1D05CFF500B84193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yuanye;
+				TargetAttributes = {
+					95BDDA661D05CFF500B84193 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					95BDDA7F1D05CFF500B84193 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95BDDA661D05CFF500B84193;
+					};
+					95BDDA8A1D05CFF500B84193 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95BDDA661D05CFF500B84193;
+					};
+				};
+			};
+			buildConfigurationList = 95BDDA621D05CFF500B84193 /* Build configuration list for PBXProject "ZYYTimerAdd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95BDDA5E1D05CFF500B84193;
+			productRefGroup = 95BDDA681D05CFF500B84193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95BDDA661D05CFF500B84193 /* ZYYTimerAdd */,
+				95BDDA7F1D05CFF500B84193 /* ZYYTimerAddTests */,
+				95BDDA8A1D05CFF500B84193 /* ZYYTimerAddUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95BDDA651D05CFF500B84193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BDDA7A1D05CFF500B84193 /* LaunchScreen.storyboard in Resources */,
+				95BDDA771D05CFF500B84193 /* Assets.xcassets in Resources */,
+				95BDDA751D05CFF500B84193 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BDDA7E1D05CFF500B84193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BDDA891D05CFF500B84193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95BDDA631D05CFF500B84193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BDDA721D05CFF500B84193 /* ViewController.m in Sources */,
+				95BDDA6F1D05CFF500B84193 /* AppDelegate.m in Sources */,
+				95BDDA6C1D05CFF500B84193 /* main.m in Sources */,
+				95BDDAA01D05D02200B84193 /* NSTimer+ZYYTimerAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BDDA7C1D05CFF500B84193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BDDA851D05CFF500B84193 /* ZYYTimerAddTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BDDA871D05CFF500B84193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BDDA901D05CFF500B84193 /* ZYYTimerAddUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95BDDA821D05CFF500B84193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95BDDA661D05CFF500B84193 /* ZYYTimerAdd */;
+			targetProxy = 95BDDA811D05CFF500B84193 /* PBXContainerItemProxy */;
+		};
+		95BDDA8D1D05CFF500B84193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95BDDA661D05CFF500B84193 /* ZYYTimerAdd */;
+			targetProxy = 95BDDA8C1D05CFF500B84193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95BDDA731D05CFF500B84193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95BDDA741D05CFF500B84193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95BDDA781D05CFF500B84193 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95BDDA791D05CFF500B84193 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95BDDA921D05CFF500B84193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95BDDA931D05CFF500B84193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95BDDA951D05CFF500B84193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYYTimerAdd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanye.ZYYTimerAdd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95BDDA961D05CFF500B84193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYYTimerAdd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanye.ZYYTimerAdd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95BDDA981D05CFF500B84193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYYTimerAddTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanye.ZYYTimerAddTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYYTimerAdd.app/ZYYTimerAdd";
+			};
+			name = Debug;
+		};
+		95BDDA991D05CFF500B84193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYYTimerAddTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanye.ZYYTimerAddTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYYTimerAdd.app/ZYYTimerAdd";
+			};
+			name = Release;
+		};
+		95BDDA9B1D05CFF500B84193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYYTimerAddUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanye.ZYYTimerAddUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYYTimerAdd;
+			};
+			name = Debug;
+		};
+		95BDDA9C1D05CFF500B84193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYYTimerAddUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanye.ZYYTimerAddUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYYTimerAdd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95BDDA621D05CFF500B84193 /* Build configuration list for PBXProject "ZYYTimerAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BDDA921D05CFF500B84193 /* Debug */,
+				95BDDA931D05CFF500B84193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BDDA941D05CFF500B84193 /* Build configuration list for PBXNativeTarget "ZYYTimerAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BDDA951D05CFF500B84193 /* Debug */,
+				95BDDA961D05CFF500B84193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95BDDA971D05CFF500B84193 /* Build configuration list for PBXNativeTarget "ZYYTimerAddTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BDDA981D05CFF500B84193 /* Debug */,
+				95BDDA991D05CFF500B84193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95BDDA9A1D05CFF500B84193 /* Build configuration list for PBXNativeTarget "ZYYTimerAddUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BDDA9B1D05CFF500B84193 /* Debug */,
+				95BDDA9C1D05CFF500B84193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95BDDA5F1D05CFF500B84193 /* Project object */;
+}
