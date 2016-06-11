@@ -11,13 +11,13 @@ NSTimer with block callback.
 
 ### From CocoaPods
 
-CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like SVProgressHUD in your projects. First, add the following line to your Podfile:
+CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like ZYYTimerAdd in your projects. First, add the following line to your Podfile:
 
 ```
 pod 'ZYYTimerAdd'
 ```
 
-If you want to use the latest features of SVProgressHUD use normal external source dependencies.
+If you want to use the latest features of ZYYTimerAdd use normal external source dependencies.
 
 ```
 pod 'ZYYTimerAdd', :git => 'https://github.com/idevzhou/ZYYTimerAdd.git'
