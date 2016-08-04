@@ -41,4 +41,7 @@ Drag the `ZYYTimerAdd/ZYYTimerAdd/ZYYTimerAdd` folder into your project.
 - (void)invalid;
 ```
 
+# About
+[NSTimer+ZYYTimerAdd](http://devzhou.com/2016/06/08/nstimer-block/)
+
 
